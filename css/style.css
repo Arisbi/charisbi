@@ -12,6 +12,9 @@ h4 {
 h3, p, a {
     font-family: 'Nunito', sans-serif;
 }
+img{
+    pointer-events: none;
+}
 .bg-body-nav {
     background: white;
     box-shadow: 0px 7px 23px -5px rgba(191,191,191,0.91);
@@ -37,7 +40,7 @@ h3, p, a {
     letter-spacing: 2.88px;
 }
 .spacing{
-    padding: 150px;
+    padding: 150px 0 80px;
 }
 .card-inside{
     padding: 200px 24px 0;
@@ -110,6 +113,36 @@ h3, p, a {
     height: 500px;
     background-size: cover;
 }
+.background-2{
+    background: no-repeat center url("../img/projects/beescrm-background.png");
+    height: 500px;
+    background-size: cover;
+}
+.background-3{
+    background: no-repeat center url("../img/projects/detallex-background.png");
+    height: 500px;
+    background-size: cover;
+}
+.background-4{
+    background: no-repeat center url("../img/projects/sihay-background.png");
+    height: 500px;
+    background-size: cover;
+}
+.background-5{
+    background: no-repeat center url("../img/projects/bancox-background.png");
+    height: 500px;
+    background-size: cover;
+}
+.background-6{
+    background: no-repeat center url("../img/projects/homiecrm-background.png");
+    height: 500px;
+    background-size: cover;
+}
+/* .background-7{
+    background: no-repeat center url("../img/projects/");
+    height: 500px;
+    background-size: cover;
+} */
 .positioning{
     margin-top: -350px;
 }
