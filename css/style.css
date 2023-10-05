@@ -1,0 +1,195 @@
+h1, h2, h6 { 
+    font-family: 'Lexend', sans-serif;
+    letter-spacing: 4.80px;
+}
+h4 { 
+    font-family: 'Lexend', sans-serif;
+    font-size: 2rem!important;
+    text-transform: uppercase;
+    font-weight: 600!important;
+    letter-spacing: 9.68px;
+}
+h3, p, a {
+    font-family: 'Nunito', sans-serif;
+}
+.bg-body-nav {
+    background: white;
+    box-shadow: 0px 7px 23px -5px rgba(191,191,191,0.91);
+    -webkit-box-shadow: 0px 7px 23px -5px rgba(191,191,191,0.91);
+    -moz-box-shadow: 0px 7px 23px -5px rgba(191,191,191,0.91); 
+}
+.nav-link:hover{
+    color: rgb(0 0 0);
+    font-weight: 600;
+}
+.nav-link.active{
+    color: rgb(0 0 0);
+    font-weight: 600;
+}
+.about-title{
+    font-family: 'Lexend', sans-serif;
+    letter-spacing: 1.80px;
+    font-size: 18px;
+    line-height: 40px;
+}
+.offcanvas{
+    text-transform: uppercase;
+    letter-spacing: 2.88px;
+}
+.spacing{
+    padding: 150px;
+}
+.card-inside{
+    padding: 200px 24px 0;
+}
+.cases{
+    display: none;
+}
+.cases hr{
+    margin: 0px;
+    margin-left: 12px;
+}
+
+.button-card {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #0F0F0F;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+
+.button-card:hover svg {
+    margin-left: 8px;
+    transition: all 0.5s ease;
+}
+.toggle-button{
+    text-decoration: none;
+    color: black;
+    cursor: pointer
+}
+.active{
+    text-decoration: underline;
+    font-weight: 800;
+}
+.side-date{
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    margin: 80px -40px;
+}
+.img-card{
+    object-fit: cover;
+}
+.bg-footer{
+    background: white;
+    box-shadow: 0px 4px 17px -3px rgba(0, 0, 0, 0.25);
+}
+.about-info{
+    background: #F0F0F0;
+    padding: 30px;
+}
+.skills p {
+    padding: 0 0px 0px 25px;
+}
+.skills ul, li{
+    list-style: none;
+}
+.vertical {
+    border-right: 1px solid #adadad;
+    height: 250px;
+    position: relative;
+    margin-top: -225px;
+    left: 25px;
+}
+.mt-5{
+    margin-top: 100px;
+}
+.background-1{
+    background: no-repeat center url("../img/projects/Bees-background2.png");
+    height: 500px;
+    background-size: cover;
+}
+.positioning{
+    margin-top: -350px;
+}
+.case-title{
+    font-family: Lexend;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 28.8px;
+}
+.subtitle {
+    font-family: Lexend;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 2.88px;
+    text-transform: uppercase;
+}
+.main-image{
+    object-fit: contain;
+}
+.inner-title{
+    margin-top: -29px;
+    font-family: Lexend;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 8px;
+}
+.inner {
+    font-family: Lexend;
+    font-size: 21px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.case-info{
+    font-family: Lexend;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 235.294% */
+    letter-spacing: 1.7px;
+    padding-right: 130px;
+}
+.case-details h4{
+    font-family: Lexend;
+    font-size: 18px!important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 222.222% */
+    letter-spacing: 4.32px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1399px) {
+    .img-card, .main-image {
+        width: 100%;
+    }
+  }
+
+ @media only screen and (max-width: 1199px) {
+  }
+
+
+@media only screen and (max-width: 992px) {
+    h1, h2, h6, .case-title{ 
+        letter-spacing: 0px;
+    }
+    .card-inside {
+        padding: 48px 0px;
+    }
+    .cases hr{
+        display: none;
+    }
+    .case-info{
+        letter-spacing: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 576px) {
+}
