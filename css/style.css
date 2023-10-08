@@ -1,3 +1,6 @@
+body{
+    background-color: #F5F5F5!important;
+}
 h1, h2, h6 { 
     font-family: 'Lexend', sans-serif;
     letter-spacing: 4.80px;
@@ -16,7 +19,7 @@ img{
     pointer-events: none;
 }
 .bg-body-nav {
-    background: white;
+    background: #F5F5F5;
     box-shadow: 0px 7px 23px -5px rgba(191,191,191,0.91);
     -webkit-box-shadow: 0px 7px 23px -5px rgba(191,191,191,0.91);
     -moz-box-shadow: 0px 7px 23px -5px rgba(191,191,191,0.91); 
@@ -62,6 +65,11 @@ img{
     transition: all 0.5s ease;
 }
 
+.button-card svg {
+    margin-right: 0px;
+    transition: all 0.5s ease;
+}
+
 .button-card:hover svg {
     margin-left: 8px;
     transition: all 0.5s ease;
@@ -85,7 +93,7 @@ img{
     object-fit: cover;
 }
 .bg-footer{
-    background: white;
+    background: #F5F5F5;
     box-shadow: 0px 4px 17px -3px rgba(0, 0, 0, 0.25);
 }
 .about-info{
@@ -109,7 +117,7 @@ img{
     margin-top: 100px;
 }
 .background-1{
-    background: no-repeat center url("../img/projects/Bees-background2.png");
+    background: no-repeat center url("../img/projects/bees-app/Bees-background2.png");
     height: 500px;
     background-size: cover;
 }
@@ -138,11 +146,56 @@ img{
     height: 500px;
     background-size: cover;
 }
-/* .background-7{
-    background: no-repeat center url("../img/projects/");
-    height: 500px;
+.background-nxtcase-1{
+    background: no-repeat center url("../img/projects/bees-app/beescrm-nextcase.png");
+    height: 270px;
     background-size: cover;
-} */
+}
+.background-nxtcase-1 a{
+    color: #000;
+    font-family: Lexend;
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.background-nxtcase-1 a svg {
+    margin-right: 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.background-nxtcase-1 a:hover svg {
+    margin-left: 8px;
+    transition: all 0.5s ease-in-out;
+}
+.hive-right{
+    position: absolute;
+    z-index: -1;
+    width: 700px!important;
+    top: 1000px;
+    right: 0px;
+}
+.hive-left{
+    position: absolute;
+    z-index: -1;
+    width: 600px!important;
+    top: 2300px;
+    left: 0px;
+}
+.bee-right{
+    position: absolute;
+    width: 220px;
+    top: 2977px;
+    right: 0;
+}
+.bee-left{
+    position: absolute;
+    width: 80px;
+    top: 3526px;
+    left: 67px;
+}
 .positioning{
     margin-top: -350px;
 }
@@ -154,26 +207,15 @@ img{
 }
 .subtitle {
     font-family: Lexend;
-    font-size: 18px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 40px;
-    letter-spacing: 2.88px;
+    letter-spacing: 2.4px;
     text-transform: uppercase;
 }
 .main-image{
     object-fit: contain;
-}
-.inner-title{
-    margin-top: -29px;
-    font-family: Lexend;
-    font-size: 48px;
-    font-weight: 400;
-    letter-spacing: 8px;
-}
-.inner {
-    font-family: Lexend;
-    font-size: 21px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
 }
 .case-info{
     font-family: Lexend;
@@ -193,14 +235,57 @@ img{
     letter-spacing: 4.32px;
     text-transform: uppercase;
 }
+.research-img{
+    background: no-repeat center url("../img/projects/bees-app/research-bees.png");
+    width: auto;
+    height: 400px;
+    background-size: contain;
+}
+.userflow-bees{
+    background: no-repeat center url("../img/projects/bees-app/userflow-bees@2x.png");
+    width: auto;
+    height: 500px;
+    background-size: contain;
+}
+.image-centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 @media only screen and (max-width: 1399px) {
     .img-card, .main-image {
         width: 100%;
     }
+    .bee-right{
+        width: 155px;
+        top: 2778px;
+    }
+    .bee-left{
+        width: 66px;
+        left: 29px;
+    }
+    .hive-left, .hive-right{
+        width: 500px!important;
+    }
   }
 
  @media only screen and (max-width: 1199px) {
+    .bee-right, .bee-left{
+        display: none;
+    }
+    .research-img{
+        height: 300px;
+        background-size: cover;
+    }
+    .userflow-bees{
+        height: 400px;
+        background-size: cover;
+    }
+    .background-nxtcase-1{
+        background-size: cover;
+        background-position: left;
+    }
   }
 
 
@@ -222,10 +307,23 @@ img{
         margin-left: 100px;
         margin-bottom: 60px;
     }
+    .userflow-bees{
+        background-position: left -18px top 0;
+    }
 }
 
 @media only screen and (max-width: 768px) {
-    
+    .case-info{
+        margin-top: -100px;
+    }
+    .hive-left, .hive-right{
+        display: none;
+    }
+    .background-nxtcase-1 a {
+        font-size: 20px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }    
 }
 
 @media only screen and (max-width: 576px) {
