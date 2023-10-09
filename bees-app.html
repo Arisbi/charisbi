@@ -79,7 +79,7 @@
           <img class="hive-right" src="img/projects/bees-app/Hive-right.svg" alt="">
           <div class="col-12 mt-5 mb-4">
             <p class="subtitle text-center">The challenge</p>
-            <p class="m-4">Mis aportaciones a este projecto fue buscar mejoras en los flujos previamente trabajados en la empresa. Mi rol en específico era encontrar y documentar pantallas que se encontraban en producción y mejorar la experiencia de usuario conforme al sistema de diseño que se estaba actualizando en conjunto con varios diseñadores. Tuvimos una migración de Sketch a Figma y con mi equipo hicimos mejoras a varios elementos y buscabamos mediar con los equipos de research, UX writing y development para mejorar textos traducidos a otros paises.</p>
+            <p class="mt-4 mb-4">Mis aportaciones a este projecto fue buscar mejoras en los flujos previamente trabajados en la empresa. Mi rol en específico era encontrar y documentar pantallas que se encontraban en producción y mejorar la experiencia de usuario conforme al sistema de diseño que se estaba actualizando en conjunto con varios diseñadores. Tuvimos una migración de Sketch a Figma y con mi equipo hicimos mejoras a varios elementos y buscabamos mediar con los equipos de research, UX writing y development para mejorar textos traducidos a otros paises.</p>
           </div>
             <div class="col-12 col-lg-6 col-xl-7">
               <div class="research-img"></div>
@@ -89,27 +89,15 @@
               <p>Gracias a los trabajos realizados por el equipo de research es que podiamos tener una mejor comprensión de nuestro usuario incluyendo que teníamos a nuestra disposición pain points del usuario, user personas, empathy maps, benchmarks y usability studies.</p>
               <p class="muted" data-bs-toggle="tooltip" data-bs-placement="right"  data-bs-title="Debido al contrato de confidencialidad y por respeto a la empresa no puedo presentar información trabajada por el equipo de research">
                 <a style="color:rgb(103, 103, 103);" >¿Por que no muestras toda esta información?</a>
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 21 21" fill="none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 21 21" fill="none">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M20.656 10.328C20.656 16.032 16.032 20.656 10.328 20.656C4.624 20.656 0 16.032 0 10.328C0 4.624 4.624 0 10.328 0C16.032 0 20.656 4.624 20.656 10.328ZM9.46134 6.46455C10.5789 6.46455 11.4849 5.55858 11.4849 4.44101C11.4849 3.32345 10.5789 2.41748 9.46134 2.41748C8.34377 2.41748 7.43781 3.32345 7.43781 4.44101C7.43781 5.55858 8.34377 6.46455 9.46134 6.46455ZM13.4002 15.7893L14.0862 16.4753C13.0388 18.3557 10.8521 18.237 10.8521 18.237C7.16593 18.237 7.43693 15.7714 7.43693 15.7714L7.8707 10.513C7.97936 9.07594 6.56982 9.10343 6.56982 9.10343V8.23633H11.34L10.9071 15.7173C10.9071 15.7173 10.9429 16.6582 12.0269 16.6215C13.1104 16.5844 13.4002 15.7893 13.4002 15.7893Z" fill="#7A7A7C"/>
                   </svg>
               </p>
             </div>
           <div class="mt-5">
             <p class="subtitle text-center">User flow</p>
-            <a data-bs-toggle="modal" data-bs-target="#userflow" href=""><div class="userflow-bees mt-5"></div></a>
-            <!-- Modal -->
-            <div class="modal fade" id="userflow" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-              <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-4" id="exampleModalFullscreenLabel">User flow</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <img src="img/projects/bees-app/userflow-bees@2x.png" alt="" width="auto" height="auto" style="pointer-events: none;">
-                  </div>
-                </div>
-              </div>
+            <div class="flow-img mt-5">
+              <img src="img/projects/bees-app/userflow-bees@2x.png" alt="" width="1290" height="auto">
             </div>
           </div>
           <img class="hive-left" src="img/projects/bees-app/Hive-left.svg" alt="">
@@ -162,13 +150,6 @@
     <script>
       const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
       const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-
-      const myModal = document.getElementById('myModal')
-      const myInput = document.getElementById('myInput')
-
-      myModal.addEventListener('shown.bs.modal', () => {
-        myInput.focus()
-      })
     </script>
   </body>
 </html>

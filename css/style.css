@@ -241,11 +241,10 @@ img{
     height: 400px;
     background-size: contain;
 }
-.userflow-bees{
-    background: no-repeat center url("../img/projects/bees-app/userflow-bees@2x.png");
-    width: auto;
+.flow-img{
     height: 500px;
-    background-size: contain;
+    width: 100%;
+    overflow: auto;
 }
 .image-centered{
     display: block;
@@ -278,10 +277,6 @@ img{
         height: 300px;
         background-size: cover;
     }
-    .userflow-bees{
-        height: 400px;
-        background-size: cover;
-    }
     .background-nxtcase-1{
         background-size: cover;
         background-position: left;
@@ -307,12 +302,6 @@ img{
         margin-left: 100px;
         margin-bottom: 60px;
     }
-    .userflow-bees{
-        background-position: left -18px top 0;
-    }
-    .image-centered{
-        width: 100%!important;
-    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -325,6 +314,12 @@ img{
     .background-nxtcase-1 a {
         font-size: 16px;
         letter-spacing: 4px;
+    }
+    .image-centered{
+        width: 100%!important;
+    }
+    .container{
+        --bs-gutter-x: 3rem!important;
     }
 }
 
