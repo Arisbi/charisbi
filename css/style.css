@@ -251,6 +251,20 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
+.list li{
+    list-style: disc;
+    margin-left: 10px;
+}
+.card-painpoint{
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    height: 120px;
+    margin: 10px;
+}
+.final-design img{
+    padding: 30px;
+}
 
 @media only screen and (max-width: 1399px) {
     .img-card, .main-image {
@@ -332,5 +346,8 @@ img{
     .background-nxtcase-1 a svg {
         margin-left: 10px;
         width: 50px;
+    }
+    .final-design img{
+        padding: 0px;
     }
 }
