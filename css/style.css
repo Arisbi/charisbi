@@ -92,6 +92,9 @@ img{
 .img-card{
     object-fit: cover;
 }
+footer a{
+    margin: 0 10px;
+}
 .bg-footer{
     background: #F5F5F5;
     box-shadow: 0px 4px 17px -3px rgba(0, 0, 0, 0.25);
@@ -115,6 +118,9 @@ img{
 }
 .mt-5{
     margin-top: 100px;
+}
+.ptb-5{
+    padding: 100px 0;
 }
 .background-1{
     background: no-repeat center url("../img/projects/bees-app/Bees-background2.png");
@@ -214,6 +220,10 @@ img{
     letter-spacing: 2.4px;
     text-transform: uppercase;
 }
+.subtitle-h5{
+    font-family: Lexend;
+    font-size: 18px;
+}
 .main-image{
     object-fit: contain;
 }
@@ -259,11 +269,38 @@ img{
     padding: 40px;
     background-color: white;
     border-radius: 8px;
-    height: 120px;
+    height: 140px;
     margin: 10px;
+    box-shadow: 0px 17px 25px -8px rgba(132, 132, 132, 0.28);
+}
+.card-number{
+    position: relative;
+    color: #eaeaea61;
+    font-family: Lexend;
+    font-size: 64px;
+    margin-top: -41px;
+    margin-bottom: -45px;
+    margin-left: -314px;
 }
 .final-design img{
     padding: 30px;
+    height: 100%;
+}
+.gray-bg{
+    background: #EAEAEA;
+}
+.panel01{
+    position: relative;
+    top: 170px;
+    left: 145px;
+}
+.panel02{
+    position: relative;
+    top: 357px;
+    left: -178px;
+}
+.margin-less{
+    margin-top: -302px;
 }
 
 @media only screen and (max-width: 1399px) {
@@ -280,6 +317,10 @@ img{
     }
     .hive-left, .hive-right{
         width: 500px!important;
+    }
+    .panel02{
+        top: 14%;
+        left: -3%;
     }
   }
 
@@ -322,18 +363,31 @@ img{
     .case-info{
         margin-top: -100px;
     }
-    .hive-left, .hive-right{
+    .hive-left, .hive-right, .hive-left2{
         display: none;
     }
     .background-nxtcase-1 a {
         font-size: 16px;
         letter-spacing: 4px;
     }
-    .image-centered{
+    .image-centered, .img-slashed{
         width: 100%!important;
     }
     .container{
         --bs-gutter-x: 3rem!important;
+    }
+    .margin-less{
+        margin-top: 0px;
+    }
+    .panel01{
+        position: relative;
+        top: 0px;
+        left: 8%;
+    }
+    .panel02{
+        position: relative;
+        top: -8%;
+        left: 40%;
     }
 }
 
@@ -349,5 +403,15 @@ img{
     }
     .final-design img{
         padding: 0px;
+    }
+    .panel01{
+        position: relative;
+        top: 0px;
+        left: 8%;
+    }
+    .panel02{
+        position: relative;
+        top: -8%;
+        left: 40%;
     }
 }
