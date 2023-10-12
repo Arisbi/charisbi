@@ -303,6 +303,13 @@ footer a{
     margin-top: -302px;
 }
 
+@media only screen and (max-width: 1616px) {
+    .panel02{
+        top: 14%;
+        left: -3%;
+    }
+  }
+
 @media only screen and (max-width: 1399px) {
     .img-card, .main-image {
         width: 100%;
@@ -317,6 +324,13 @@ footer a{
     }
     .hive-left, .hive-right{
         width: 500px!important;
+    }
+    .hive-left2{
+        position: relative;
+        left: -10%;
+    }
+    .panel01 {
+        left: 95px;
     }
     .panel02{
         top: 14%;
@@ -335,6 +349,17 @@ footer a{
     .background-nxtcase-1{
         background-size: cover;
         background-position: left;
+    }
+    .hive-left2 {
+        position: relative;
+        left: -90%;
+    }
+    .panel01 {
+        left: 10%;
+    }
+    .panel02 {
+        top: 14%;
+        left: -28%;
     }
   }
 
@@ -356,6 +381,15 @@ footer a{
     .profile{
         margin-left: 100px;
         margin-bottom: 60px;
+    }
+    .hive-left2 {
+        left: -185%;
+    }
+    .panel01 {
+        left: -5%;
+    }
+    .panel02 {
+        left: -53%;
     }
 }
 
@@ -389,6 +423,13 @@ footer a{
         top: -8%;
         left: 40%;
     }
+    .panel01 {
+        top: -15%;
+        left: 12%;
+    }
+    .panel02 {
+        left: 21%;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -409,6 +450,12 @@ footer a{
         top: 0px;
         left: 8%;
     }
+    .panel02{
+        left: 12%;
+    }
+}
+
+@media only screen and (max-width: 404px) {
     .panel02{
         position: relative;
         top: -8%;
