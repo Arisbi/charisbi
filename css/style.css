@@ -157,7 +157,12 @@ footer a{
     height: 270px;
     background-size: cover;
 }
-.background-nxtcase-1 a{
+.background-nxtcase-2{
+    background: no-repeat center url("../img/projects/crm-bees/beescrm-nextcase.png");
+    height: 270px;
+    background-size: cover;
+}
+.nxtcase a{
     color: #000;
     font-family: Lexend;
     font-size: 30px;
