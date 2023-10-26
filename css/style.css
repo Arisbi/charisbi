@@ -167,6 +167,11 @@ footer a{
     height: 270px;
     background-size: cover;
 }
+.background-nxtcase-4{
+    background: no-repeat center url("../img/projects/bancox/bancox-nxtcase.png");
+    height: 270px;
+    background-size: cover;
+}
 .nxtcase a{
     color: #000;
     font-family: Lexend;
@@ -451,6 +456,9 @@ footer a{
     .background-nxtcase-1 a svg {
         margin-left: 10px;
         width: 50px;
+    }
+    .nxtcase a{
+        padding: 50px!important;
     }
     .final-design img{
         padding: 0px;
